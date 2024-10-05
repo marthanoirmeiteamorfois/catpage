@@ -5,13 +5,13 @@
 }
 
 body {
-    font-family: 'Oswald', sans-serif; /* Применение шрифта Oswald */
+    font-family: 'Merriweather', serif; /* Применение шрифта Merriweather */
     background-color: #5060a9; 
     color: #f9f9f9; 
 }
 
 header {
-    background-color: #6d3490; 
+    background-color: #6d3490; /* Цвет шапки изменен на #6d3490 */
     color: white;
     padding: 20px 0;
     text-align: center;
