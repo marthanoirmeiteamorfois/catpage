@@ -5,6 +5,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Кошки и их породы</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        .card {
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .card h3 {
+            background-color: rgba(0, 0, 0, 0.6);
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .details {
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 15px;
+            border-radius: 5px;
+        }
+
+        /* Фоновые изображения для каждой породы */
+        .siamese {
+            background-image: url('siamese.jpg');
+        }
+
+        .maine-coon {
+            background-image: url('maine_coon.jpg');
+        }
+
+        .british-shorthair {
+            background-image: url('british_shorthair.jpg');
+        }
+
+        .ragdoll {
+            background-image: url('ragdoll.jpg');
+        }
+
+        .munchkin {
+            background-image: url('munchkin.jpg');
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -21,7 +65,7 @@
         <section id="breeds">
             <h2>Популярные породы кошек</h2>
 
-            <div class="card">
+            <div class="card siamese">
                 <h3>Сиамская кошка</h3>
                 <p>Сиамские кошки известны своим ярким окрасом и выразительными голубыми глазами. Они очень общительные и активные.</p>
                 <div class="details">
@@ -36,17 +80,10 @@
                         <li>Хвост: тонкий, сужается к концу</li>
                         <li>Шерсть: короткая с тонкой текстурой</li>
                     </ul>
-                    <h4>Окраска:</h4>
-                    <ol>
-                        <li>Светло-розовый с коричневыми пятнышками по телу, конечностям и мордочке.</li>
-                        <li>Желтоватый с пятнами шоколадного оттенка по всему телу и мордочке.</li>
-                        <li>Бледно-голубой с серыми и синими пятнами, серыми носиком и лапками.</li>
-                        <li>Белый с лиловыми пятнами и бледно-розовыми носом и лапами.</li>
-                    </ol>
                 </div>
             </div>
 
-            <div class="card">
+            <div class="card maine-coon">
                 <h3>Мейн-кун</h3>
                 <p>Порода Мейн-кун – самая крупная из домашних кошек. Они известны своим дружелюбным характером и пушистым хвостом.</p>
                 <div class="details">
@@ -64,19 +101,10 @@
                         <li>Хвост: равен длине туловища, покрыт густой шерстью</li>
                         <li>Шерсть: длинная (10-15 см), пышная с подшерстком</li>
                     </ul>
-                    <h4>Окрасы:</h4>
-                    <ol>
-                        <li>Пойнт</li>
-                        <li>Черепаховый</li>
-                        <li>Дымчатый</li>
-                        <li>Сплошной (черный, красный, голубой, белый)</li>
-                        <li>Мраморный</li>
-                        <li>Агути</li>
-                    </ol>
                 </div>
             </div>
 
-            <div class="card">
+            <div class="card british-shorthair">
                 <h3>Британская короткошерстная</h3>
                 <p>Эти кошки отличаются круглой головой и густой шерстью. Они спокойные и независимые.</p>
                 <div class="details">
@@ -86,27 +114,10 @@
                         <li>Рост (высота в холке): 27-35 см</li>
                         <li>Продолжительность жизни: 15-19 лет</li>
                     </ul>
-                    <h4>Окрасы:</h4>
-                    <ol>
-                        <li>Голубой</li>
-                        <li>Лиловый</li>
-                        <li>Шоколадный</li>
-                        <li>Белый</li>
-                        <li>Черный</li>
-                        <li>Рыжий</li>
-                        <li>"Олений"</li>
-                        <li>Циннамон</li>
-                        <li>Кремовый</li>
-                        <li>Двухцветный</li>
-                        <li>Черепаховый</li>
-                        <li>Табби</li>
-                        <li>Колор-пойнт</li>
-                        <li>"Шиншилла"</li>
-                    </ol>
                 </div>
             </div>
 
-            <div class="card">
+            <div class="card ragdoll">
                 <h3>Рэгдолл</h3>
                 <p>Рэгдоллы — большие и ласковые кошки с густой шерстью. Они любят проводить время с людьми.</p>
                 <div class="details">
@@ -120,7 +131,7 @@
                 </div>
             </div>
 
-            <div class="card">
+            <div class="card munchkin">
                 <h3>Манчкин</h3>
                 <p>Манчкины известны своими короткими лапами. Они игривые и общительные.</p>
                 <div class="details">
