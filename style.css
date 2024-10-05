@@ -73,6 +73,33 @@ h2 {
     margin-top: 15px;
 }
 
+.card {
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    max-width: 800px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.details {
+    background-color: rgba(0, 51, 102, 0.6);
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.details ul,
+.details ol,
+.details li,
+.details p,
+.details h4 {
+    color: #ffffff;
+}
+
 .siamese {
     background-image: url('siamese.jpg');
 }
