@@ -66,6 +66,24 @@ h2 {
     color: #cb98e2; 
 }
 
+.card .details {
+    margin-top: 15px; 
+}
+
+.card ul, .card ol {
+    list-style-type: disc; 
+    padding-left: 20px; 
+}
+
+.card ol {
+    list-style-type: decimal; 
+}
+
+.card ul li, .card ol li {
+    margin-bottom: 10px; 
+    line-height: 1.5; 
+}
+
 .review-card {
     display: flex;
     align-items: center;
@@ -95,6 +113,7 @@ footer {
     background-color: #cb98e2; 
     color: white;
 }
+
 #care {
     background-color: #424242; 
     border-radius: 8px; 
@@ -121,7 +140,7 @@ footer {
 #care ul li {
     margin-bottom: 10px; 
     line-height: 1.5; 
-}то
+}
 
 #care strong {
     color: #ffcc00; 
